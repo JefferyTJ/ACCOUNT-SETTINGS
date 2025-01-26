@@ -1,0 +1,133 @@
+body {
+    background: #000 !important; /* Black background */
+    color: #fff !important;     /* White text */
+    margin-top: 20px;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+
+h5{
+    padding-bottom: 2%;;
+}
+
+hr{
+    padding-bottom: 2%;
+}
+
+#profile-photo {
+    width: 80px; /* Adjust size as needed */
+    height: 80px; /* Adjust size as needed */
+    object-fit: cover;
+    border-radius: 50%; /* This makes the image round */
+}
+
+.ui-w-80 {
+    width: 80px !important;
+    height: auto;
+}
+
+.cancel {
+    color: white;
+    background: white;
+    border-radius: 10px;
+    border-color: white;
+}
+
+label.btn {
+    margin-bottom: 0;
+    color: #fff;
+}
+
+.btn-outline-primary {
+    border-color: #26B4FF;
+    background: transparent;
+    color: #26B4FF;
+}
+
+.text-light {
+    color: #fff !important;
+}
+
+.btn-facebook {
+    border-color: rgba(255, 255, 255, 0.1);
+    background: #3B5998;
+    color: #fff;
+}
+
+.btn-instagram {
+    border-color: rgba(255, 255, 255, 0.1);
+    background: #000;
+    color: #fff;
+}
+
+.card {
+    background-color: #222 !important; /* Darker background for cards */
+    color: #fff !important;
+    box-shadow: 0 1px 4px rgba(255, 255, 255, 0.1);
+    margin-top: 20px; /* Add space between sections */
+    margin-bottom: 20px; /* Add space between sections */
+}
+
+.row-bordered {
+    overflow: hidden;
+}
+
+.account-settings-fileinput {
+    position: absolute;
+    visibility: hidden;
+    width: 1px;
+    height: 1px;
+    opacity: 0;
+}
+
+.account-settings-links .list-group-item {
+    background-color: #111 !important;
+    color: #fff !important;
+}
+
+.account-settings-links .list-group-item.active {
+    font-weight: bold !important;
+    background-color: #333 !important;
+    color: #fff !important;
+}
+
+.account-settings-multiselect~.select2-container {
+    width: 100% !important;
+}
+
+.switcher-label {
+    color: #fff;
+}
+
+.form-control {
+    background-color: #111 !important;
+    color: #fff !important;
+    border-color: rgba(255, 255, 255, 0.3);
+}
+
+.custom-select {
+    background-color: #111 !important;
+    color: #fff !important;
+    border-color: rgba(255, 255, 255, 0.3);
+}
+
+textarea.form-control {
+    background-color: #111 !important;
+    color: #fff !important;
+    border-color: rgba(255, 255, 255, 0.3);
+}
+
+/* Adding space for form sections */
+.card-body {
+    padding-top: 20px; /* Space at the top of each section */
+    padding-bottom: 20px; /* Space at the bottom of each section */
+}
+
+.form-group {
+    margin-bottom: 15px; /* Space between form fields */
+}
+
+/* Extra spacing for footer buttons */
+.text-right {
+    margin-top: 30px; /* Space before the save/cancel buttons */
+}
